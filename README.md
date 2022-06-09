@@ -14,7 +14,7 @@ cd .. //back one folder
 ```
 
 ## VIM CHEAT SHEET
-```sh
+```
 v //visual
 d //delete in visual
 p //paste what you deleted in normal mode - replace in visual
