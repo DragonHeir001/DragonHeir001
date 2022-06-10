@@ -31,6 +31,9 @@ char name[10];
 "%lf" //printing/scanning double
 "%c"//printing/scanning char
 "%s" //printing/scanning string
+if (<condition>) {
+    // code here will only go through if condition is met
+}
 ```
 
 ## GIT CHEAT SHEET
@@ -54,6 +57,8 @@ u //undo
 V //highlight entire line
 d //delete while in visual
 p //paste what you deleted in normal mode - replace in visual
+O //new line -above
+o // new line -below
 :w //save
 v //highlights -enters visual mode 
 :q! //quit without saving
