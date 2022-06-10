@@ -17,6 +17,11 @@ printf(""); //print to terminal
 #include <stdio.h> //allows printf
 gcc <file> //created a.out (compiles) -changes c code to machine code
 ./<file> //runs machine code
+\n //print new line
+void //no return
+void <function name>() {
+    // code here
+}
 ```
 
 ## GIT CHEAT SHEET
