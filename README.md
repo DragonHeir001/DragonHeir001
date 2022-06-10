@@ -1,8 +1,6 @@
 # DragonHeir001
 
 
-# Challenge:first line 1- 1 abcd  line 2- 2 bcde (and so on). . .
-
 
 ## CHEAT SHEET
 ```sh
@@ -17,8 +15,9 @@ mkdir <folder> //createed new folder
 
 ## C LANGUAGE CHEAT SHEET
 ```c
+scanf(""); //gets input from terminal
 printf(""); //print to terminal
-#include <stdio.h> //allows printf
+#include <stdio.h> //allows printf and scanf
 gcc <file> //created a.out (compiles) -changes c code to machine code
 ./<file> //runs machine code
 \n //print new line
@@ -26,6 +25,12 @@ void //no return
 void <function name>() {
     // code here
 }
+//string is an array of char
+char name[10];
+"%d" //printing/scanning int
+"%lf" //printing/scanning double
+"%c"//printing/scanning char
+"%s" //printing/scanning string
 ```
 
 ## GIT CHEAT SHEET
