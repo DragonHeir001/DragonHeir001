@@ -5,9 +5,18 @@
 cd <folder> //change folder
 cd .. //back one folder
 ls //lists files
-ls -al //show all files (including hidden)
 vim <file> //opens file
+rm //remove file
+ls -al //show all files (including hidden)
 mkdir <folder> //createed new folder
+```
+
+## C LANGUAGE CHEAT SHEET
+```c
+printf(""); //print to terminal
+#include <stdio.h> //allows printf
+gcc <file> //created a.out (compiles) -changes c code to machine code
+./<file> //runs machine code
 ```
 
 ## GIT CHEAT SHEET
