@@ -16,6 +16,8 @@ mkdir <folder> //createed new folder
 ## C LANGUAGE CHEAT SHEET
 ```c
 scanf(""); //gets input from terminal
+if (<char> == <char>) {
+} //compare char
 printf(""); //print to terminal
 #include <stdio.h> //allows printf and scanf
 gcc <file> //created a.out (compiles) -changes c code to machine code
@@ -34,6 +36,13 @@ char name[10];
 if (<condition>) {
     // code here will only go through if condition is met
 }
+```
+### c file stuff
+```c
+FILE* ptr; // make file pointer
+fopen(<filename>, "r") //opens file for reading
+//ex.  ptr = fopen("harry.txt", "r");
+fgetc(ptr); // reads a char from file pointer and returns it
 ```
 
 ## GIT CHEAT SHEET
@@ -54,6 +63,8 @@ i //goes into insert mode -allows editing
 esc //gets out of insert mode
 :wq //save and quit
 u //undo
+~ // change t to T and T to t
+ctrl v //block select
 V //highlight entire line
 d //delete while in visual
 p //paste what you deleted in normal mode - replace in visual
